@@ -1,7 +1,7 @@
 body {
   font-family: 'IBM Plex Mono', monospace;
-      background: #fff;
-      color: #000;
+      background: #000000;
+      color: #ffffff;
       display: flex;
       justify-content: center;
       padding: 4px 0;
@@ -25,7 +25,7 @@ th, td {
     }
 
 th {
-      background-color: #f0f0f0;
+      background-color: #1e1e1e;
       text-align: left;
     }
 
@@ -36,7 +36,7 @@ td.cover-cell {
   
 th:nth-child(1),
 td:nth-child(1) {
-  width: 50px; /* или любое другое значение */
+  width: 50px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -45,7 +45,7 @@ td:nth-child(1) {
   
 th:nth-child(4),
 td:nth-child(4) {
-  width: 50px; /* или любое другое значение */
+  width: 50px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -53,7 +53,7 @@ td:nth-child(4) {
   
 th:nth-child(2),
 td:nth-child(2) {
-  width: 100px; /* или любое другое значение */
+  width: 100px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -61,15 +61,15 @@ td:nth-child(2) {
   
 th:nth-child(3),
 td:nth-child(3) {
-  width: 100px; /* или любое другое значение */
+  width: 100px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
 img.cover {
-      width: 40px;
-      height: 40px;
+      width: 42px;
+      height: 42px;
       object-fit: cover;
       border-radius: 2px;
 }
