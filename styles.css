@@ -1,0 +1,75 @@
+body {
+  font-family: 'IBM Plex Mono', monospace;
+      background: #fff;
+      color: #000;
+      display: flex;
+      justify-content: center;
+      padding: 4px 0;
+      font-size: 12px;
+    }
+  
+
+ .container {
+      width: 600px;
+    }
+
+table {
+      width: 100%;
+      border-collapse: collapse;
+      table-layout: fixed;
+    }
+
+th, td {
+      border: 1px solid none;
+      padding: 8px;
+    }
+
+th {
+      background-color: #f0f0f0;
+      text-align: left;
+    }
+
+td.cover-cell {
+      text-align: center;
+      vertical-align: middle;
+    }
+  
+th:nth-child(1),
+td:nth-child(1) {
+  width: 50px; /* или любое другое значение */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+  
+th:nth-child(4),
+td:nth-child(4) {
+  width: 50px; /* или любое другое значение */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+  
+th:nth-child(2),
+td:nth-child(2) {
+  width: 100px; /* или любое другое значение */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+  
+th:nth-child(3),
+td:nth-child(3) {
+  width: 100px; /* или любое другое значение */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+img.cover {
+      width: 40px;
+      height: 40px;
+      object-fit: cover;
+      border-radius: 2px;
+}
