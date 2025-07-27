@@ -1,12 +1,11 @@
 body {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
+    margin-top: 86px;
     font-family: 'Lato', sans-serif;
     background-color: #000000;
+    align-items: center;
+
 }
 
 .avatar {
@@ -32,7 +31,8 @@ body {
 
 button {
     padding: 10px;
-    font-size: 16px;
+    font-size: 17px;
+    height: 46px;
     border: none;
     background: #18181b;
     color: #ffffff;
@@ -48,10 +48,9 @@ button:hover {
 }
 
 .profile-container {
-    display: flex;
     flex-direction: column; 
-    align-items: center;
-    margin: 16px 0px 0px 0px; 
+    margin-top: 16px;
+    text-align: center;
 }
 
 .name {
@@ -66,4 +65,3 @@ button:hover {
     color: #6f6f6f;
     font-weight: bold;
 }
-
