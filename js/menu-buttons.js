@@ -1,14 +1,7 @@
 const menuStructure = {
   main: [ 
-    { label: 'Активность', action: 'navigate', target: 'section1' }, 
+    { label: 'Активность', href: 'activity-art.html', target: '_self' },
 
-  ],
-  section1: [ 
-    { label: 'Альбомы', href: 'albums.html', target: '_self' },
-    { label: 'Кино', href: 'cinema.html', target: '_self' }, 
-    { label: 'Видеоигры', href: 'videogames.html', target: '_self' }, 
-    { label: 'Литература', href: 'literature.html', target: '_self' }, 
-    { label: '⟵', action: 'back' } 
   ],
 };
 
