@@ -27,14 +27,14 @@ body {
   background: #18181b;
   color: #fff;
   border: none;
-  border-radius: 6px;
+  border-radius: 10px;
   border: 1px solid #303338;
   cursor: pointer;
   box-sizing: border-box;
-   text-decoration: none;
+  text-decoration: none;
 }
 
-.button:hover {
+.button-m:hover {
   background: #222;
 }
 
@@ -99,7 +99,6 @@ table {
 
 th,
 td {
-  border: 1px solid #000000;
   padding: 8px;
 }
 
@@ -129,7 +128,7 @@ img.cover {
 
   th,
   td {
-    padding: 5px;
-    font-size: 11px;
+    padding: 6px;
+    font-size: 12px;
   }
 }

@@ -1,7 +1,8 @@
 const menuStructure = {
   main: [ 
+    { label: 'О себе', href: 'about.html', target: '_self' },
     { label: 'Активность', href: 'activity-art.html', target: '_self' },
-
+    
   ],
 };
 
