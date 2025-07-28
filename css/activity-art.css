@@ -124,12 +124,12 @@ img.cover {
 
 
   .tab-button {
-    font-size: 12px;
+    font-size: 13px;
   }
 
   th,
   td {
-    padding: 5px;
-    font-size: 11px;
+    padding: 6px;
+    font-size: 12px;
   }
 }
