@@ -59,6 +59,11 @@
    font-size: 28px;
  }
 
+ .icon2 {
+   width: 64px;
+   height: 64px;
+ }
+
  .block-header {
    padding: 4px;
    border-bottom: 1px solid #303338;
@@ -68,7 +73,7 @@
  .block-header-text {
    color: white;
    font-size: 18px;
-   font-style: bold;
+   font-weight: bold;
    margin-bottom: 8px;
  }
 
