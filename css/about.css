@@ -15,7 +15,7 @@
  }
 
  .container {
-   width: 360px;
+   width: 768px;
    background-color: #18181b;
    border-radius: 10px;
    border: 1px solid #303338;
@@ -24,7 +24,7 @@
  }
 
  .section {
-   background-color: #101010;
+
    border-radius: 8px;
    border: 1px solid #303338;
    padding: 15px;
@@ -33,15 +33,15 @@
  }
 
  .section-header {
-   background-color: #09090B;
+   background-color: #101010;
    padding: 8px;
    border-radius: 8px;
-   border: 1px solid #303338;
+   border: 1px solid #0F0F0F;
    display: flex;
    align-items: center;
    justify-content: space-between;
    margin-bottom: 4px;
-   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
  }
 
  .section-title {
@@ -94,17 +94,58 @@
  }
 
  .button-m:hover {
-  background: #222;
-}
+   background: #222;
+ }
 
-.text {
-  display: flex;
-  flex-direction: column;
-  margin-top: 10px;
-}
+ .text {
+   display: flex;
+   flex-direction: column;
+   margin-top: 10px;
+ }
 
-.name {
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 4px;
-}
+ .name {
+   font-size: 20px;
+   font-weight: bold;
+   margin-bottom: 4px;
+ }
+
+ .hidden-conteiner-4 {
+   padding: 2px;
+   display: flex;
+   flex-wrap: wrap;
+   /* Позволяет переносить иконки на следующую строку, если места мало */
+   gap: 4px;
+   /* Расстояние между иконками */
+   align-items: center;
+   justify-content: flex-start;
+   /* Иконки начинаются слева */
+   margin-bottom: 4px;
+ }
+
+
+ .section-header-7 {
+   padding: 4px;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: flex-start;
+   margin-bottom: 4px;
+ }
+
+ .color-box {
+   width: 14px;
+   height: 14px;
+   padding: 8px;
+   border-radius: 2px;
+   border: 1px solid #303338;
+   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+ }
+
+ @media (max-width: 768px) {
+
+
+   .container {
+     width: 360px;
+   }
+
+ }
