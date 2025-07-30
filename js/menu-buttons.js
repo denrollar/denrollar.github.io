@@ -2,9 +2,15 @@ const menuStructure = {
   main: [
     { label: 'О себе', href: 'about.html', target: '_self' },
     { label: 'Посты', href: 'posts.html', target: '_self' },
-    { label: 'Активность', href: 'activity-art.html', target: '_self' },
-
+    { label: 'Активность', action: 'navigate', target: 'section1' },
   ],
+
+  section1: [
+    { label: 'Искусство', href: 'activity-art.html', target: '_self' },
+    { label: 'Тренировка', href: 'training.html', target: '_self' },
+    { label: '🠔', action: 'back' }
+  ],
+
 };
 
 const container = document.getElementById('buttons');
