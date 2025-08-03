@@ -8,7 +8,7 @@ const menuStructure = {
   section1: [
     { label: 'Искусство', href: 'activity-art.html', target: '_self' },
     { label: 'Тренировка', href: 'training.html', target: '_self' },
-    { label: '🠔', action: 'back' }
+    { label: 'Главное меню', action: 'back' }
   ],
 
 };
