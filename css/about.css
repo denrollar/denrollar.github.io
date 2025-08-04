@@ -70,6 +70,7 @@
  }
 
  .text-social {
+   font-size: 16px;
    text-decoration: none;
    color: white;
    padding-left: 8px;
@@ -164,13 +165,13 @@
  }
 
  .icon-text-link {
-  display: inline-flex;
-  align-items: center;
-  text-decoration: none;
-  color: inherit;
-  padding: 0px;
-  margin: 0px;
-}
+   display: inline-flex;
+   align-items: center;
+   text-decoration: none;
+   color: inherit;
+   padding: 0px;
+   margin: 0px;
+ }
 
  @media (max-width: 768px) {
 
