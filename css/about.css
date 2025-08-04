@@ -164,7 +164,7 @@
  }
 
  .icon-text-link {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   text-decoration: none;
   color: inherit;
