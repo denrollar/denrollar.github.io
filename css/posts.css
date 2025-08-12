@@ -9,55 +9,55 @@
  }
 
  .wrapper {
-  display: flex;
-  width: 768px;
-  flex-direction: column;
-  gap: 10px;
+   display: flex;
+   width: 768px;
+   flex-direction: column;
+   gap: 10px;
 
-}
+ }
 
 
-.post-data {
-background: #18181b;
+ .post-data {
+   background-color: #191919;
    border-radius: 10px;
-border: 1px solid #303338;
-}
+   border: 1px solid #292929;
+ }
 
-.post-data p {
-  padding-top: 0px;
-  padding-right: 10px;
-  padding-bottom: 0px;
-  padding-left: 10px;
-  color: #fff;
-}
+ .post-data p {
+   padding-top: 0px;
+   padding-right: 10px;
+   padding-bottom: 0px;
+   padding-left: 10px;
+   color: #fff;
+ }
 
-.post-data .title-post{
-  padding-top: 0px;
-  padding-right: 10px;
-  padding-bottom: 0px;
-  padding-left: 10px;
-  font-size: 18px;
-  font-weight: bold;
-}
+ .post-data .title-post {
+   padding-top: 0px;
+   padding-right: 10px;
+   padding-bottom: 0px;
+   padding-left: 10px;
+   font-size: 18px;
+   font-weight: bold;
+ }
 
-.post-data .date {
-  padding-top: 10px;
-  padding-right: 10px;
-  padding-bottom: 0px;
-  padding-left: 10px;
-  color: #888;
-  font-size: 14px;
-}
+ .post-data .date {
+   padding-top: 10px;
+   padding-right: 10px;
+   padding-bottom: 0px;
+   padding-left: 10px;
+   color: #77787A;
+   font-size: 14px;
+ }
 
-.image-post {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  object-fit: cover;
-  border-radius: 10px 10px 0px 0px;
-}
+ .image-post {
+   max-width: 100%;
+   height: auto;
+   display: block;
+   object-fit: cover;
+   border-radius: 10px 10px 0px 0px;
+ }
 
-.menu-button {
+ .menu-button {
    width: 100%;
    margin-bottom: 8px;
  }
@@ -68,11 +68,11 @@ border: 1px solid #303338;
    padding: 10px;
    font-size: 16px;
    text-align: center;
-   background: #18181b;
+   background-color: #191919;
    color: #fff;
    border: none;
    border-radius: 10px;
-   border: 1px solid #303338;
+   border: 1px solid #292929;
    cursor: pointer;
    box-sizing: border-box;
    text-decoration: none;
@@ -97,7 +97,7 @@ border: 1px solid #303338;
  @media (max-width: 768px) {
 
 
- .wrapper {
+   .wrapper {
      width: 360px;
    }
 

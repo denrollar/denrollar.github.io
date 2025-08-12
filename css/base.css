@@ -20,7 +20,7 @@ body {
 .avatar:hover {
     transform: scale(1.05);
 }
- 
+
 .buttons {
     display: flex;
     flex-direction: column;
@@ -34,21 +34,21 @@ button {
     font-size: 17px;
     height: 46px;
     border: none;
-    background: #18181b;
+    background-color: #191919;
     color: #ffffff;
     cursor: pointer;
     border-radius: 6px;
-    border: 1px solid #303338;
+    border: 1px solid #292929;
     text-align: center;
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 button:hover {
-    background-color: rgba(255,255,255,0.25);
+    background-color: rgba(255, 255, 255, 0.25);
 }
 
 .profile-container {
-    flex-direction: column; 
+    flex-direction: column;
     margin-top: 16px;
     text-align: center;
 }
@@ -62,6 +62,6 @@ button:hover {
 
 .username {
     font-size: 14px;
-    color: #6f6f6f;
+    color: #77787A;
     font-weight: bold;
 }

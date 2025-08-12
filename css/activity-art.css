@@ -24,11 +24,11 @@ body {
   padding: 10px;
   font-size: 16px;
   text-align: center;
-  background: #18181b;
+  background-color: #191919;
   color: #fff;
   border: none;
   border-radius: 10px;
-  border: 1px solid #303338;
+  border: 1px solid #292929;
   cursor: pointer;
   box-sizing: border-box;
   text-decoration: none;
@@ -52,7 +52,7 @@ body {
 
 .username {
   font-size: 14px;
-  color: #6f6f6f;
+  color: #77787A;
 }
 
 .tabs {
@@ -63,14 +63,14 @@ body {
 }
 
 .tab-button {
-  background-color: #18181b;
+  background-color: #191919;
   border: none;
   padding: 8px 12px;
   font-size: 14px;
   cursor: pointer;
   color: #fff;
   border-radius: 100px;
-  transition: bg-color .3s;
+  transition: bg-color 3ms;
 }
 
 .tab-button:hover {
@@ -103,7 +103,7 @@ td {
 }
 
 th {
-  background-color: #18181b;
+  background-color: #191919;
   text-align: left;
 }
 

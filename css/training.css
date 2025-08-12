@@ -16,9 +16,9 @@
  }
 
  .container {
-   background-color: #18181b;
+   background-color: #191919;
    border-radius: 10px;
-   border: 1px solid #303338;
+   border: 1px solid #292929;
    padding: 10px;
    box-sizing: border-box;
  }
@@ -34,11 +34,11 @@
    padding: 10px;
    font-size: 16px;
    text-align: center;
-   background: #18181b;
+   background-color: #191919;
    color: #fff;
    border: none;
    border-radius: 10px;
-   border: 1px solid #303338;
+   border: 1px solid #292929;
    cursor: pointer;
    box-sizing: border-box;
    text-decoration: none;
@@ -72,10 +72,10 @@
  }
 
  .form-column {
-   background: #18181B;
+   background-color: #191919;
    display: flex;
    flex-direction: column;
-   border: 1px solid #303338;
+   border: 1px solid #292929;
    border-radius: 10px;
    padding: 8px;
    box-sizing: border-box;
@@ -87,7 +87,7 @@
  .form-group {
    display: flex;
    justify-content: space-between;
-   border-bottom: 1px solid #303338;
+   border-bottom: 1px solid #292929;
    padding: 4px 0;
  }
 
@@ -97,14 +97,14 @@
 
  .exercise-name {
    color: #ffffff;
-    font-size: 15px;
+   font-size: 15px;
  }
 
  .exercise-count {
-   color: #848484;
+   color: #77787A;
    min-width: 50px;
    text-align: right;
-    font-size: 15px;
+   font-size: 15px;
  }
 
  .block-date {
