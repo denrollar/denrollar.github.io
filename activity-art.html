@@ -6,16 +6,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Искусство</title>
   <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/nav.css" />
+  <link rel="stylesheet" href="css/footer.css" />
   <link rel="stylesheet" href="css/activity-art.css" />
 </head>
 
 <body>
+  <nav>
+    <button class="back-button" onclick="history.back()">
+      <img src="images/back.svg" alt="Назад" />
+    </button>
+    <a href="index.html" class="button-profile-user">
+      <div class="block-profile-user">
+        <div class="name-profile-user">denrollar</div>
+        <div class="avatar-profile"><img src="images/avatar.webp" class="avatar-profile" /></div>
+      </div>
+    </a>
 
-  <div class="page-container">
-
-    <div class="menu-button">
-      <a href="index.html" class="button-m">Главное меню</a>
     </div>
+  </nav>
+
+  <div class="eyes">
 
     <div class="text">
       <div class="name">Искусство</div>
@@ -1433,10 +1444,10 @@
           </tr>
         </tbody>
       </table>
-
     </div>
-
-
+    <footer class="footer">
+      <p>САЙТ В РАЗРАБОТКЕ</p>
+    </footer>
 </body>
 
 </html>

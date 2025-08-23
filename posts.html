@@ -4,36 +4,66 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
+
     <title>Посты</title>
+    <link rel="icon" href="images/icon-website.webp" type="image/webp">
+    <link rel="stylesheet" href="css/nav.css" />
+    <link rel="stylesheet" href="css/footer.css" />
     <link rel="stylesheet" href="css/posts.css">
 </head>
 
 <body>
-    <div class="wrapper">
+    <nav>
+        <button class="back-button" onclick="history.back()">
+            <img src="images/back.svg" alt="Назад" />
+        </button>
 
-        <div class="menu-button">
-            <a href="index.html" class="button-m">Главное меню</a>
+        <a href="index.html" class="button-profile-user">
+            <div class="block-profile-user">
+                <div class="name-profile-user">denrollar</div>
+                <div class="avatar-profile"><img src="images/avatar.webp" class="avatar-profile" /></div>
+            </div>
+        </a>
         </div>
+    </nav>
 
-        <div class="text">
-            <div class="name">Посты</div>
+    <div class="main">
+
+        <div class="block-main-header-text">
+            <div class="main-header-text">Посты</div>
+            <div class="secondary-header-text">Обновлено: 23 августа 2025</div>
         </div>
 
         <div class="post-data">
+
+            <div class="block-post-profile-user">
+                <div class="post-avatar-profile"><img src="images/avatar.webp" class="post-avatar-profile"" /></div>
+                <div class=" post-name-profile-user">denrollar</div>
+            </div>
+
             <img src="images/for-posts/2.webp" alt="Аватар" class="image-post" />
-            <p class="date">16 июня 2025</p>
             <p class="title-post">Будущие планы Valve</p>
             <p>В хронологическом порядке:</p>
             <p>1. Выпуск портативной консоли Steam Deck;</p>
-            <p>2. Выпуск четвертой версии Steam OS, которая включает оптимизацию операционной системы и её официальный запуск на устройствах партнеров;</p>
+            <p>2. Выпуск четвертой версии Steam OS, которая включает оптимизацию операционной системы и её
+                официальный
+                запуск на устройствах партнеров;</p>
             <p>3. Выпуск новых версий очков виртуальной реальности Valve Index 2 и геймпада Steam Controller 2;</p>
-            <p>4. Выпуск новой версии стационарной консоли Steam Machine 2 на Steam OS с поддержкой Valve Index 2 и Steam Controller 2;</p>
-            <p>5. Выпуск новой версии портативной консоли Steam Deck 2;</p>
-            <p>Информация является предположением автора поста и не подтверждена как достоверная.</p>
+            <p>4. Выпуск новой версии стационарной консоли Steam Machine 2 на Steam OS с поддержкой Valve Index 2 и
+                Steam Controller 2;</p>
+            <p>5. Выпуск новой версии портативной консоли Steam Deck 2.</p>
+            <p class="date">16 июня 2025</p>
         </div>
+
         <div class="post-data">
+
+            <div class="block-post-profile-user">
+                <div class="post-avatar-profile"><img src="images/avatar.webp" class="post-avatar-profile"" /></div>
+                <div class=" post-name-profile-user">denrollar</div>
+            </div>
+
             <img src="images/for-posts/1.webp" alt="Аватар" class="image-post" />
-            <p class="date">31 марта 2025</p>
             <p class="title-post">Рассрочка на подписки</p>
             <p>Беспроцентная рассрочка на подписки интернет-сервисов от коммерческих банков может стать доступной уже в
                 ближайшее время.</p>
@@ -41,11 +71,18 @@
                 для предоставления своих услуг.</p>
             <p>Практика показывает, что годовая оплата подписки существенно дешевле по сравнению с ежемесячными
                 платежами.</p>
-            <p>Для примера годовая подписка на Яндекс Плюс составляет 3400 рублей, что в 1.4 раза дешевле по сравнению ежемесячной оплатой в 399 рублей (399 руб. x 12 мес. = 4788 руб).</p>
+            <p>Для примера годовая подписка на Яндекс Плюс составляет 3400 рублей, что в 1.4 раза дешевле по сравнению
+                ежемесячной оплатой в 399 рублей (399 руб. x 12 мес. = 4788 руб).</p>
             <p>Коммерческие банки могут разделить сумму годовой подписки на равные ежемесячные платежи для снижения
                 финансовой нагрузки на обычного потребителя, взимая взамен небольшую комиссию до 15% за предоставленные
                 услуги.</p>
+            <p class="date">31 марта 2025</p>
         </div>
+    </div>
+
+    <footer class="footer">
+        <p>САЙТ В РАЗРАБОТКЕ</p>
+    </footer>
 
 </body>
 

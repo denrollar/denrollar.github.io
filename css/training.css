@@ -1,124 +1,116 @@
  body {
-   background-color: #000;
-   font-family: 'Lato', monospace;
-   font-size: 14px;
-   color: #fff;
-   display: flex;
-   justify-content: center;
-   padding: 20px;
+     background-color: #000;
+     margin: 0px;
+     padding: 0;
+     font-family: 'Lato', monospace;
+     font-size: 14px;
+     color: #fff;
  }
 
- .wrapper {
-   display: flex;
-   flex-direction: column;
-   gap: 10px;
-   width: 768px;
+ .main {
+     max-width: 768px;
+     margin-top: calc(60px);
+     margin-left: auto;
+     margin-right: auto;
+     padding: 20px;
  }
 
  .container {
-   background-color: #191919;
-   border-radius: 10px;
-   border: 1px solid #292929;
-   padding: 10px;
-   box-sizing: border-box;
+     background-color: #191919;
+     border-radius: 10px;
+     border: 1px solid #292929;
+     padding: 10px;
+     box-sizing: border-box;
  }
 
- .menu-button {
-   width: 100%;
-   margin-bottom: 8px;
+ .block-main-header-text {
+     display: flex;
+     flex-direction: column;
+     margin-top: 10px;
+     margin-bottom: 30px;
  }
 
- .button-m {
-   display: block;
-   width: 100%;
-   padding: 10px;
-   font-size: 16px;
-   text-align: center;
-   background-color: #191919;
-   color: #fff;
-   border: none;
-   border-radius: 10px;
-   border: 1px solid #292929;
-   cursor: pointer;
-   box-sizing: border-box;
-   text-decoration: none;
+ .main-header-text {
+     font-size: 20px;
+     font-weight: bold;
+     margin-bottom: 4px;
  }
 
- .button-m:hover {
-   background: #222;
- }
-
- .text {
-   display: flex;
-   flex-direction: column;
-   margin-top: 10px;
- }
-
- .name {
-   font-size: 20px;
-   font-weight: bold;
-   margin-bottom: 4px;
+ .secondary-header-text {
+     font-size: 14px;
+     color: #77787A;
  }
 
  .day-block {
-   width: 100%;
-   margin-bottom: 8px;
+     width: 100%;
+     margin-bottom: 8px;
  }
 
  .form-pair {
-   display: flex;
-   flex-wrap: wrap;
-   gap: 4px;
+     display: flex;
+     flex-wrap: wrap;
+     gap: 4px;
  }
 
  .form-column {
-   background-color: #191919;
-   display: flex;
-   flex-direction: column;
-   border: 1px solid #292929;
-   border-radius: 10px;
-   padding: 8px;
-   box-sizing: border-box;
-   width: 100%;
-   font-family: 'IBM Plex Mono', monospace;
-   font-size: 14px;
+     background-color: #191919;
+     display: flex;
+     flex-direction: column;
+     border: 1px solid #292929;
+     border-radius: 10px;
+     padding: 8px;
+     box-sizing: border-box;
+     width: 100%;
+     font-family: 'IBM Plex Mono', monospace;
+     font-size: 14px;
+     margin-bottom: 16px;
  }
 
  .form-group {
-   display: flex;
-   justify-content: space-between;
-   border-bottom: 1px solid #292929;
-   padding: 4px 0;
+     display: flex;
+     justify-content: space-between;
+     border-bottom: 1px solid #292929;
+     padding: 4px 0;
  }
 
  .form-group:last-child {
-   border-bottom: none;
+     border-bottom: none;
  }
 
  .exercise-name {
-   color: #ffffff;
-   font-size: 15px;
+     color: #ffffff;
+     font-size: 15px;
  }
 
  .exercise-count {
-   color: #77787A;
-   min-width: 50px;
-   text-align: right;
-   font-size: 15px;
+     color: #77787A;
+     min-width: 50px;
+     text-align: right;
+     font-size: 15px;
  }
 
  .block-date {
-   color: white;
-   font-size: 16px;
-   font-weight: normal;
-   margin-bottom: 8px;
+     color: white;
+     font-size: 16px;
+     font-weight: normal;
+     margin-bottom: 8px;
  }
 
+ *,
+ *::before,
+ *::after {
+     box-sizing: border-box;
+ }
+
+ .footer {
+     bottom: 0;
+     width: 100%;
+     background-color: #000000;
+     color: #292929;
+     text-align: center;
+     padding: 15px 0;
+ }
+
+
  @media (max-width: 768px) {
-
-
-   .wrapper {
-     width: 360px;
-   }
-
  }

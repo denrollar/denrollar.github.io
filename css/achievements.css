@@ -1,0 +1,87 @@
+ body {
+     background-color: #000;
+     margin: 0px;
+     padding: 0;
+     font-family: 'Lato', monospace;
+     font-size: 14px;
+     color: #fff;
+ }
+
+ .main {
+     max-width: 768px;
+     margin-top: calc(60px);
+     margin-left: auto;
+     margin-right: auto;
+     padding: 20px;
+ }
+
+ .block-main-header-text {
+     display: flex;
+     flex-direction: column;
+     margin-top: 10px;
+     margin-bottom: 30px;
+ }
+
+ .main-header-text {
+     font-size: 20px;
+     font-weight: bold;
+     margin-bottom: 4px;
+ }
+
+ .secondary-header-text {
+     font-size: 14px;
+     color: #77787A;
+ }
+
+ .block-achievements {
+     background-color: #191919;
+     padding: 10px;
+     border-radius: 8px;
+     border: 1px solid #292929;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     margin-bottom: 8px;
+ }
+
+ .section-title {
+     font-size: 16px;
+ }
+
+ .section-subtitle {
+     font-size: 11px;
+     font-weight: bold;
+     color: #77787A;
+ }
+
+ .achievement-icon {
+     font-size: 28px;
+ }
+
+ .hidden-block-1 {
+     border: none;
+ }
+
+ .footer {
+     bottom: 0;
+     width: 100%;
+     background-color: #000000;
+     color: #292929;
+     text-align: center;
+     padding: 15px 0;
+ }
+
+ *,
+ *::before,
+ *::after {
+     box-sizing: border-box;
+ }
+
+ @media (max-width: 768px) {
+
+
+     .mwain {
+         width: 360px;
+     }
+
+ }

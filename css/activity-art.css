@@ -6,8 +6,10 @@ body {
   margin: 0;
 }
 
-.page-container {
+
+.eyes {
   max-width: 768px;
+  margin-top: calc(60px);
   margin-left: auto;
   margin-right: auto;
   padding: 20px;
@@ -117,6 +119,12 @@ img.cover {
   height: 42px;
   object-fit: cover;
   border-radius: 2px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 @media (max-width: 768px) {
