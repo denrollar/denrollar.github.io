@@ -118,7 +118,9 @@ table {
 }
 
 .hidden-block-1 {
-  border: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .cover-album {
