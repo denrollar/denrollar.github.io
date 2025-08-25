@@ -15,7 +15,7 @@ function fetchNowPlaying() {
 
       output.textContent = isPlaying
         ? artist + " – " + name
-        : "загрузка";
+        : "ничего не играет";
     } catch (e) {
       output.textContent = "ошибка загрузки";
       console.error(e);
