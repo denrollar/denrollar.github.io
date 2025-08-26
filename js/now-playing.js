@@ -9,13 +9,20 @@ function fetchNowPlaying() {
   window.__lfmCallback = function (data) {
     try {
       const track = data.recenttracks.track[0];
+      if (!track) {
+        output.textContent = "";
+        return;
+      }
+
       const artist = track.artist["#text"] || "Unknown artist";
       const name = track.name || "Unknown track";
       const isPlaying = track["@attr"] && track["@attr"].nowplaying === "true";
 
-      output.textContent = isPlaying
-        ? artist + " – " + name
-        : "";
+      if (isPlaying) {
+        output.textContent = artist + " – " + name;
+      } else {
+        output.textContent = "";
+      }
     } catch (e) {
       output.textContent = "";
       console.error(e);

@@ -2,6 +2,7 @@ const menuStructure = {
   main: [
     { label: 'О себе', href: 'about.html', target: '_self' },
     { label: 'Посты', href: 'posts.html', target: '_self' },
+    { label: 'Вишлист', href: 'wishlist.html', target: '_self' },
     { label: 'Активность', action: 'navigate', target: 'section1' },
   ],
 
