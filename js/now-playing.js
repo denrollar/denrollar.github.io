@@ -24,7 +24,7 @@ function fetchNowPlaying() {
         output.textContent = "";
       }
     } catch (e) {
-      output.textContent = "";
+      output.textContent = "ошибка загрузки";
       console.error(e);
     }
   };
@@ -39,7 +39,7 @@ function fetchNowPlaying() {
   const s = document.createElement("script");
   s.id = "lfm-jsonp";
   s.src = url;
-  s.onerror = () => (output.textContent = "");
+  s.onerror = () => (output.textContent = "загрузка сети");
   document.body.appendChild(s);
 }
 
