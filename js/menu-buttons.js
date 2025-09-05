@@ -3,14 +3,14 @@ const menuStructure = {
     { label: 'О себе', href: 'about.html', target: '_self' },
     { label: 'Посты', href: 'posts.html', target: '_self' },
     { label: 'Вишлист', href: 'wishlist.html', target: '_self' },
-    { label: 'Активность', action: 'navigate', target: 'section1' },
+    { label: 'Статистика', action: 'navigate', target: 'section1' },
   ],
 
   section1: [
     { label: 'Искусство', href: 'activity-art.html', target: '_self' },
     { label: 'Достижения', href: 'achievements.html', target: '_self' },
     { label: 'Тренировка', href: 'training.html', target: '_self' },
-    { label: 'Главное меню', action: 'back' }
+    { label: '<', action: 'back' }
   ],
 
 };
