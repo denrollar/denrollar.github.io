@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+    <title>Посты</title>
+    <link rel="icon" href="resources/images/icons/logo.webp" type="image/webp">
+    <link rel="stylesheet" href="code/css/fonts.css" />
+    <link rel="stylesheet" href="code/css/nav.css" />>>
+    <link rel="stylesheet" href="code/css/posts.css">
+</head>
+
+<body>
+    <nav id="horizontal">
+        <button id="menu-btn">
+            <div class="nav-open"><img src="resources/images/icons/nav.svg" class="nav-open" /></div>
+        </button>
+        <a href="about.html" class="button-profile-user">
+            <div class="block-profile-user">
+                <div class="name-profile-user">denrollar</div>
+                <div class="avatar-profile"><img src="resources/images/other/avatar.webp" class="avatar-profile" />
+                </div>
+            </div>
+        </a>
+    </nav>
+
+    <div id="overlay"></div>
+
+    <nav id="vertical">
+        <div class="hidden-block-2">
+            <h2>Навигация</h2>
+            <button id="close-btn">
+                <div class="close"><img src="resources/images/icons/exit.svg" class="close" /></div>
+            </button>
+        </div>
+
+        <div class="menu">
+            <div class="menu-section">
+                <div class="menu-subtitle">Основное</div>
+                <div class="menu-grid">
+                    <a href="index.html" class="menu-item"><img src="resources/images/icons/home.svg"
+                            class="icon" />Главная</a>
+                    <a href="about.html" class="menu-item"><img src="resources/images/icons/faq.svg" class="icon" />О
+                        себе</a>
+                    <a href="posts.html" class="menu-item"><img src="resources/images/icons/posts.svg"
+                            class="icon" />Посты</a>
+                    <a href="wishlist.html" class="menu-item"><img src="resources/images/icons/favorites.svg"
+                            class="icon" />Вишлист</a>
+                    <a href="#" class="menu-item"><img src="resources/images/icons/gallery.svg"
+                            class="icon" />Галерея</a>
+                    <a href="achievements.html" class="menu-item"><img src="resources/images/icons/achievement.svg"
+                            class="icon" />Достижения</a>
+                </div>
+            </div>
+            <hr>
+            <div class="menu-section">
+                <div class="menu-subtitle">Активность</div>
+                <div class="menu-grid">
+                    <a href="art.html" class="menu-item"><img src="resources/images/icons/art.svg"
+                            class="icon" />Искусство</a>
+                    <a href="training.html" class="menu-item"><img src="resources/images/icons/training.svg"
+                            class="icon" />Тренировка</a>
+                    <a href="#" class="menu-item"><img src="resources/images/icons/changelog.svg"
+                            class="icon" />Ченджлог</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <script src="code/js/nav.js"></script>
+
+    <div class="main">
+
+        <div class="block-main-header-text">
+            <div class="main-header-text">Посты</div>
+        </div>
+
+        <div class="post-data">
+
+            <div class="block-post-profile-user">
+                <div class="post-avatar-profile"><img src="resources/images/other/avatar.webp"
+                        class="post-avatar-profile"" /></div>
+                <div class=" post-name-profile-user">denrollar</div>
+            </div>
+
+            <img src="resources/images/for-posts/2.webp" alt="Аватар" class="image-post" />
+            <p class="title-post">Будущие планы Valve</p>
+            <p>В хронологическом порядке:</p>
+            <p>1. Выпуск портативной консоли Steam Deck;</p>
+            <p>2. Выпуск четвертой версии Steam OS, которая включает оптимизацию операционной системы и её
+                официальный
+                запуск на устройствах партнеров;</p>
+            <p>3. Выпуск новых версий очков виртуальной реальности Valve Index 2 и геймпада Steam Controller 2;</p>
+            <p>4. Выпуск новой версии стационарной консоли Steam Machine 2 на Steam OS с поддержкой Valve Index 2 и
+                Steam Controller 2;</p>
+            <p>5. Выпуск новой версии портативной консоли Steam Deck 2.</p>
+            <p class="date">16 ИЮНЯ 2025</p>
+        </div>
+
+        <div class="post-data">
+
+            <div class="block-post-profile-user">
+                <div class="post-avatar-profile"><img src="resources/images/other/avatar.webp"
+                        class="post-avatar-profile"" /></div>
+                <div class=" post-name-profile-user">denrollar</div>
+            </div>
+
+            <img src="resources/images/for-posts/1.webp" alt="Аватар" class="image-post" />
+            <p class="title-post">Рассрочка на подписки</p>
+            <p>Беспроцентная рассрочка на подписки интернет-сервисов от коммерческих банков может стать доступной уже в
+                ближайшее время.</p>
+            <p>Крупные компании всё чаще используют модель подписки с ежемесячной или годовой оплатой в качестве основы
+                для предоставления своих услуг.</p>
+            <p>Практика показывает, что годовая оплата подписки существенно дешевле по сравнению с ежемесячными
+                платежами.</p>
+            <p>Для примера годовая подписка на Яндекс Плюс составляет 3400 рублей, что в 1.4 раза дешевле по сравнению
+                ежемесячной оплатой в 399 рублей (399 руб. x 12 мес. = 4788 руб).</p>
+            <p>Коммерческие банки могут разделить сумму годовой подписки на равные ежемесячные платежи для снижения
+                финансовой нагрузки на обычного потребителя, взимая взамен небольшую комиссию до 15% за предоставленные
+                услуги.</p>
+            <p class="date">31 МАРТА 2025</p>
+        </div>
+    </div>
+
+</body>
+
+</html>

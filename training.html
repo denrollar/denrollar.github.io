@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+    <title>Тренировка</title>
+    <link rel="icon" href="resources/images/icons/logo.webp" type="image/webp">
+    <link rel="stylesheet" href="code/css/fonts.css" />
+    <link rel="stylesheet" href="code/css/nav.css" />
+    <link rel="stylesheet" href="code/css/training.css" />
+
+</head>
+
+<body>
+    <nav id="horizontal">
+        <button id="menu-btn">
+            <div class="nav-open"><img src="resources/images/icons/nav.svg" class="nav-open" /></div>
+        </button>
+        <a href="about.html" class="button-profile-user">
+            <div class="block-profile-user">
+                <div class="name-profile-user">denrollar</div>
+                <div class="avatar-profile"><img src="resources/images/other/avatar.webp" class="avatar-profile" />
+                </div>
+            </div>
+        </a>
+    </nav>
+
+    <div id="overlay"></div>
+
+    <nav id="vertical">
+        <div class="hidden-block-2">
+            <h2>Навигация</h2>
+            <button id="close-btn">
+                <div class="close"><img src="resources/images/icons/exit.svg" class="close" /></div>
+            </button>
+        </div>
+
+        <div class="menu">
+            <div class="menu-section">
+                <div class="menu-subtitle">Основное</div>
+                <div class="menu-grid">
+                    <a href="index.html" class="menu-item"><img src="resources/images/icons/home.svg"
+                            class="icon" />Главная</a>
+                    <a href="about.html" class="menu-item"><img src="resources/images/icons/faq.svg" class="icon" />О
+                        себе</a>
+                    <a href="posts.html" class="menu-item"><img src="resources/images/icons/posts.svg"
+                            class="icon" />Посты</a>
+                    <a href="wishlist.html" class="menu-item"><img src="resources/images/icons/favorites.svg"
+                            class="icon" />Вишлист</a>
+                    <a href="#" class="menu-item"><img src="resources/images/icons/gallery.svg"
+                            class="icon" />Галерея</a>
+                    <a href="achievements.html" class="menu-item"><img src="resources/images/icons/achievement.svg"
+                            class="icon" />Достижения</a>
+                </div>
+            </div>
+            <hr>
+            <div class="menu-section">
+                <div class="menu-subtitle">Активность</div>
+                <div class="menu-grid">
+                    <a href="art.html" class="menu-item"><img src="resources/images/icons/art.svg"
+                            class="icon" />Искусство</a>
+                    <a href="training.html" class="menu-item"><img src="resources/images/icons/training.svg"
+                            class="icon" />Тренировка</a>
+                    <a href="#" class="menu-item"><img src="resources/images/icons/changelog.svg"
+                            class="icon" />Ченджлог</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <script src="code/js/nav.js"></script>
+
+    <div class="main">
+
+        <div class="block-main-header-text">
+            <div class="main-header-text">Тренировка</div>
+            <div class="secondary-header-text">Обновлено: 24 августа 2025</div>
+        </div>
+
+        <div class="day-block">
+            <div class="block-date">2025, 18 авг - 24 авг</div>
+            <div class="form-pair">
+                <div class="form-column">
+                    <div class="form-group">
+                        <span class="exercise-name">УПРАЖНЕНИЕ</span>
+                        <span class="exercise-count">КОЛИЧЕСТВО</span>
+                    </div>
+
+                    <div class="form-group">
+                        <span class="exercise-name">ЛФК</span>
+                        <span class="exercise-count">7 д</span>
+                    </div>
+
+                    <div class="form-group">
+                        <span class="exercise-name">Отжимания</span>
+                        <span class="exercise-count">140</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
