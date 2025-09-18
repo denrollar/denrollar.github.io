@@ -10,7 +10,7 @@ function fetchNowPlaying() {
     try {
       const track = data.recenttracks.track[0];
       if (!track) {
-        output.textContent = "";
+        output.innerHTML = "";
         return;
       }
 
@@ -18,11 +18,35 @@ function fetchNowPlaying() {
       const name = track.name || "Unknown track";
       const isPlaying = track["@attr"] && track["@attr"].nowplaying === "true";
 
-      if (isPlaying) {
-        output.textContent = artist + " – " + name;
-      } else {
-        output.textContent = "";
+      if (!isPlaying) {
+        output.innerHTML = "";
+        return;
       }
+      const images = track.image || [];
+
+      let imageSrc = "";
+      for (let img of images) {
+        if (img.size === "medium") {
+          imageSrc = img["#text"];
+          break;
+        }
+      }
+
+      if (!imageSrc && images.length > 0) {
+        imageSrc = images[0]["#text"];
+      }
+
+      output.innerHTML = `
+          <div class="now-playing__status">Сейчас играет</div>
+        <div class="player-mini">
+          <img class="player-mini__cover" src="${imageSrc}" alt="Album art" />
+          <div class="player-mini__info">
+            <div class="player-mini__track">${name}</div>
+            <div class="player-mini__artist">${artist}</div>
+          </div>
+        </div>
+      `;
+
     } catch (e) {
       output.textContent = "ошибка загрузки";
       console.error(e);

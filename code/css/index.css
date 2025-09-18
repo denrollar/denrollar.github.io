@@ -34,8 +34,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
-    text-align: center;
-    align-items: center;
+
 }
 
 .avatar {
@@ -52,8 +51,10 @@ body {
 }
 
 .profile-container {
+    text-align: center;
+    align-items: center;
     flex-direction: column;
-    margin-top: 16px;
+    margin-top: 50px;
 }
 
 .name {
@@ -69,17 +70,86 @@ body {
     font-weight: bold;
 }
 
-.scrobbler {
-    margin-top: 8px;
-    text-align: center;
+.block-hidden-9 {
+  position: fixed;
+  bottom: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
-.scrobbler-data {
-    font-size: 12px;
+.player-mini {
+    position: relative;
+    overflow: hidden;
+
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #292929;
+    display: flex;
+    margin-bottom: 8px;
+    gap: 10px;
+    width: 248px;
+
+    background-color: #191919;
+    background-image: linear-gradient(
+        90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.075) 40%,
+    rgba(255, 255, 255, 0.075) 60%,
+    rgba(255, 255, 255, 0) 100%
+    );
+    background-repeat: no-repeat;
+    background-size: 300% 100%;
+    animation: whiteShine 3s linear infinite;
+}
+
+.player-mini__cover {
+    width: 38px;
+    height: 38px;
+    background-color:  #292929;
+    border-radius: 4px;
+}
+
+.player-mini__info {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.player-mini__artist {
+    font-size: 10px;
     font-weight: bold;
-    color: #ffffff;
+    color: #77787A;
+    text-transform: uppercase;
+    text-overflow: ellipsis;
 }
 
+.player-mini__track {
+    font-size: 14px;
+    color: #ffffff;
+    text-overflow: ellipsis;
+}
+
+.now-playing__status {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 10px;
+    font-weight: bold;
+    color: #77787A;
+    text-transform: uppercase;
+}
+
+@keyframes whiteShine {
+  0% {
+    background-position: -100% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
 
 *,
 *::before,
