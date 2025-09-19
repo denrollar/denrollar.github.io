@@ -52,20 +52,20 @@ body {
 .header-text-name {
     font-size: 16px;
     color: #ffffff;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .gallery-wrap {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
     gap: 8px;
 }
 
 .gallery-item-block {
     position: relative;
     overflow: hidden;
-    border-radius: 12px;
+    border-radius: 8px;
     cursor: pointer;
     aspect-ratio: 1/1;
     background: #f2f2f2;
@@ -79,7 +79,7 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 12px;
+    border-radius: 8px;
 }
 
 .gallery-item-block video {
@@ -113,8 +113,8 @@ body {
 
 .lightbox-content-frame img,
 .lightbox-content-frame video {
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 96%;
+    max-height: 96%;
     border-radius: 12px;
     transition: transform 0.3s ease;
 }

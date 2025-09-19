@@ -37,7 +37,7 @@ function fetchNowPlaying() {
       }
 
       output.innerHTML = `
-          <div class="now-playing__status">Сейчас играет</div>
+          <div class="now-playing__status">Сейчас слушает</div>
         <div class="player-mini">
           <img class="player-mini__cover" src="${imageSrc}" alt="Album art" />
           <div class="player-mini__info">
