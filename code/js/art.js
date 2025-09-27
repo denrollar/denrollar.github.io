@@ -2,6 +2,8 @@
 
 const cinema = [
   { title: "Адвокат дьявола", year: "1997", type: "Фильм", cover: "resources/images/covers/cinema/default.webp" },
+  { title: "Аладдин", year: "1992", type: "Мультфильм", cover: "resources/images/covers/cinema/default.webp" },
+  { title: "Аладдин: Возвращение Джафара", year: "1994", type: "Мультфильм", cover: "resources/images/covers/cinema/default.webp" },
   { title: "Американская история X", year: "2000", type: "Фильм", cover: "resources/images/covers/cinema/default.webp" },
   { title: "Американский психопат", year: "1998", type: "Фильм", cover: "resources/images/covers/cinema/default.webp" },
   { title: "Аркейн", year: "2021", type: "Сериал", cover: "resources/images/covers/cinema/default.webp" },

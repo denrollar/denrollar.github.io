@@ -106,7 +106,7 @@ body {
     border-radius: 8px;
     cursor: pointer;
     aspect-ratio: 1/1;
-    background: #f2f2f2;
+    background: #202020;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -115,7 +115,6 @@ body {
 
 .gallery-item-block img,
 .gallery-item-block video {
-    background: #202020;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -168,6 +167,7 @@ body {
     margin-top: 12px;
     font-size: 0.9rem;
     opacity: 0.8;
+    text-align: center;
 }
 
 .close-button-frame {
