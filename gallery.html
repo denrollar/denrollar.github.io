@@ -2,13 +2,13 @@
 <html lang="ru">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Галерея</title>
-    <link rel="icon" href="resources/images/icons/logo.webp" type="image/webp">
-    <link rel="stylesheet" href="code/css/nav.css" />
-    <link rel="stylesheet" href="code/css/gallery.css" />
+  <title>Галерея</title>
+  <link rel="icon" href="resources/images/icons/logo.webp" type="image/webp">
+  <link rel="stylesheet" href="code/css/nav.css" />
+  <link rel="stylesheet" href="code/css/gallery.css" />
 </head>
 
 <body>
@@ -57,6 +57,7 @@
           <a href="art.html" class="menu-item"><img src="resources/images/icons/art.svg" class="icon" />Искусство</a>
           <a href="training.html" class="menu-item"><img src="resources/images/icons/training.svg"
               class="icon" />Тренировка</a>
+          <a href="food.html" class="menu-item"><img src="resources/images/icons/food.svg" class="icon" />Питание</a>
           <a href="changelog.html" class="menu-item"><img src="resources/images/icons/changelog.svg"
               class="icon" />Ченджлог</a>
         </div>
@@ -64,41 +65,42 @@
     </div>
   </nav>
 
-    <script src="code/js/nav.js"></script>
+  <script src="code/js/nav.js"></script>
 
-    <div class="main">
+  <div class="main">
 
-        <div class="block-main-header-text">
-            <div class="main-header-text">Галерея</div>
-        </div>
-
-        <div class="header-text-name">Фотографии</div>
-        <div class="gallery-wrap" id="photoGallery">
-            <div class="gallery-item-block" data-date="15 АВГУСТА 2025"><img src="resources/images/photo-1.jpg"></div>
-        </div>
-        <div class="header-text-name">Видео</div>
-        <div class="gallery-wrap" id="videoGallery">
-            <div class="gallery-item-block" data-date="Ранняя и последняя версия прототипа дизайна музыкального стримингового приложения – 22 НОЯБРЯ 2024">
-                <video src="resources/videos/video-1.mp4" muted loop></video>
-            </div>
-        </div>
-        <div class="lightbox-frame" id="lightbox">
-            <button class="close-button-frame" id="closeBtn">
-                <div class="close"><img src="resources/images/icons/exit.svg" class="close" /></div>
-            </button>
-            <button class="nav-button nav-button-left" id="prevBtn">
-                <div class="close"><img src="resources/images/icons/left.svg" class="close" /></div>
-            </button>
-            <button class="nav-button nav-button-right" id="nextBtn">
-                <div class="close"><img src="resources/images/icons/right.svg" class="close" /></div>
-            </button>
-            <div class="lightbox-content-frame" id="lightboxContent"></div>
-            <div class="caption-text" id="caption"></div>
-        </div>
-
-        <script src="code/js/gallery.js"></script>
-
+    <div class="block-main-header-text">
+      <div class="main-header-text">Галерея</div>
     </div>
+
+    <div class="header-text-name">Фотографии</div>
+    <div class="gallery-wrap" id="photoGallery">
+      <div class="gallery-item-block" data-date="15 АВГУСТА 2025"><img src="resources/images/photo-1.jpg"></div>
+    </div>
+    <div class="header-text-name">Видео</div>
+    <div class="gallery-wrap" id="videoGallery">
+      <div class="gallery-item-block"
+        data-date="Ранняя и последняя версия прототипа дизайна музыкального стримингового приложения – 22 НОЯБРЯ 2024">
+        <video src="resources/videos/video-1.mp4" muted loop></video>
+      </div>
+    </div>
+    <div class="lightbox-frame" id="lightbox">
+      <button class="close-button-frame" id="closeBtn">
+        <div class="close"><img src="resources/images/icons/exit.svg" class="close" /></div>
+      </button>
+      <button class="nav-button nav-button-left" id="prevBtn">
+        <div class="close"><img src="resources/images/icons/left.svg" class="close" /></div>
+      </button>
+      <button class="nav-button nav-button-right" id="nextBtn">
+        <div class="close"><img src="resources/images/icons/right.svg" class="close" /></div>
+      </button>
+      <div class="lightbox-content-frame" id="lightboxContent"></div>
+      <div class="caption-text" id="caption"></div>
+    </div>
+
+    <script src="code/js/gallery.js"></script>
+
+  </div>
 
 </body>
 

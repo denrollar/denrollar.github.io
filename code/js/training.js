@@ -1,9 +1,23 @@
 const daysData = [
   {
-    dateRange: "2025, 18 авг - 24 авг",
+    dateRange: "17 ОКТЯБРЯ 2025",
     exercises: [
-      { name: "ЛФК", count: "7 д" },
-      { name: "Отжимания", count: "140" }
+      { name: "ЛФК", count: "0 мин" },
+      { name: "Отжимания", count: "0" }
+    ]
+  },
+  {
+    dateRange: "15 ОКТЯБРЯ 2025",
+    exercises: [
+      { name: "ЛФК", count: "0 мин" },
+      { name: "Отжимания", count: "0" }
+    ]
+  },
+  {
+    dateRange: "13 ОКТЯБРЯ 2025",
+    exercises: [
+      { name: "ЛФК", count: "0 мин" },
+      { name: "Отжимания", count: "0" }
     ]
   },
 ];
