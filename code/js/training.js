@@ -16,8 +16,11 @@ const daysData = [
   {
     dateRange: "13 ОКТЯБРЯ 2025",
     exercises: [
-      { name: "ЛФК", count: "0 мин" },
-      { name: "Отжимания", count: "0" }
+      { name: "ЛФК", count: "5 мин" },
+      { name: "Отжимания", count: "3x30" },
+      { name: "Отжимания (алмазные)", count: "3x30" },
+      { name: "Отжимания (в наклоне)", count: "3x30" },
+      { name: "Отжимания (с подн. ног.)", count: "1x10" }
     ]
   },
 ];
