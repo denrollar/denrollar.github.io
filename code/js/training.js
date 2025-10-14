@@ -1,25 +1,21 @@
 const daysData = [
   {
-    dateRange: "17 ОКТЯБРЯ 2025",
+    dateRange: "14 ОКТЯБРЯ 2025",
     exercises: [
-      { name: "ЛФК", count: "0 мин" },
-      { name: "Отжимания", count: "0" }
-    ]
-  },
-  {
-    dateRange: "15 ОКТЯБРЯ 2025",
-    exercises: [
-      { name: "ЛФК", count: "0 мин" },
-      { name: "Отжимания", count: "0" }
+      { name: "ЛФК", count: "5 мин" },
+      { name: "Приседания", count: "1x50" },
+      { name: "Приседания (сумо)", count: "1x50" },
+      { name: "Приседания (выпады)", count: "1x25" },
+      { name: "Мостик (без веса)", count: "1x50" }
     ]
   },
   {
     dateRange: "13 ОКТЯБРЯ 2025",
     exercises: [
       { name: "ЛФК", count: "5 мин" },
-      { name: "Отжимания", count: "3x30" },
-      { name: "Отжимания (алмазные)", count: "3x30" },
-      { name: "Отжимания (в наклоне)", count: "3x30" },
+      { name: "Отжимания", count: "3x10" },
+      { name: "Отжимания (алмазные)", count: "3x10" },
+      { name: "Отжимания (в наклоне)", count: "3x10" },
       { name: "Отжимания (с подн. ног.)", count: "1x10" }
     ]
   },
