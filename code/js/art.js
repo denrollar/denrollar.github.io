@@ -174,6 +174,7 @@ const albums = [
   { title: "Crystal Castles III", artist: "CRYSTAL CASTLES", year: "2012", cover: "resources/images/covers/albums/crystalcastles-iii.webp" },
   { title: "Crystal Castles II", artist: "CRYSTAL CASTLES", year: "2010", cover: "resources/images/covers/albums/crystalcastles-ii.webp" },
   { title: "Crystal Castles", artist: "CRYSTAL CASTLES", year: "2008", cover: "resources/images/covers/albums/crystalcastles-i.webp" },
+  { title: "Nightmortan", artist: "Deathmarried", year: "2025", cover: "resources/images/covers/albums/deathmarried-nightmortan.webp" },
   { title: "House of Zef", artist: "DIE ANTWOOD", year: "2022", cover: "resources/images/covers/albums/dieantwoord-houseofzef.webp" },
   { title: "Mount Ninji And Nice Time Kid", artist: "DIE ANTWOOD", year: "2016", cover: "resources/images/covers/albums/dieantwoord-mnant.webp" },
   { title: "Donker Mag", artist: "DIE ANTWOOD", year: "2014", cover: "resources/images/covers/albums/dieantwoord-donkermag.webp" },
