@@ -2,21 +2,6 @@ const postsData = [
   {
     avatarSrc: "resources/images/other/avatar.webp",
     userName: "denrollar",
-    imageSrc: "resources/images/for-posts/2.webp",
-    title: "Будущие планы Valve",
-    content: [
-      "В хронологическом порядке:",
-      "1. Выпуск портативной консоли Steam Deck;",
-      "2. Выпуск четвертой версии Steam OS, которая включает оптимизацию операционной системы и её официальный запуск на устройствах партнеров;",
-      "3. Выпуск новых версий очков виртуальной реальности Valve Index 2 и геймпада Steam Controller 2;",
-      "4. Выпуск новой версии стационарной консоли Steam Machine 2 на Steam OS с поддержкой Valve Index 2 и Steam Controller 2;",
-      "5. Выпуск новой версии портативной консоли Steam Deck 2."
-    ],
-    date: "16 ИЮНЯ 2025"
-  },
-  {
-    avatarSrc: "resources/images/other/avatar.webp",
-    userName: "denrollar",
     imageSrc: "resources/images/for-posts/1.webp",
     title: "Рассрочка на подписки",
     content: [

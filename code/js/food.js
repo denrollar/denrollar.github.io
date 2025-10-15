@@ -1,4 +1,14 @@
 const daysData = [
+    {
+    dateRange: "15 ОКТЯБРЯ 2025",
+    exercises: [
+      { name: "Калории", count: "732" },
+      { name: "Белки", count: "34,1 г" },
+      { name: "Жиры", count: "34,3 г" },
+      { name: "Углеводы", count: "77,8 г" },
+      { name: "Сахар", count: "28.2 г" },
+    ]
+  },
   {
     dateRange: "14 ОКТЯБРЯ 2025",
     exercises: [
