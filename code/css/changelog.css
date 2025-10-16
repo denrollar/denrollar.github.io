@@ -94,12 +94,6 @@ body {
 
 .changelog-main-background {
     margin-bottom: 32px;
-    transition: transform 0.5s ease;
-}
-
-.changelog-main-background:hover {
-    transform: scale(1.01);
-    cursor: pointer;
 }
 
 .change-date {
@@ -114,11 +108,15 @@ body {
 .change-text {
     padding: 8px;
     margin-left: 10px;
-    background-color: #191919;
+    background: linear-gradient(110deg, #1D1D1D, #191919);
     border: 1px solid #292929;
-    border-radius: 8px;
+    border-radius: 10px;
     font-size: 14px;
     margin-bottom: 10px;
+    box-shadow:
+        0 8px 32px rgba(0, 0, 0, 0.3),
+        inset 0 1px 0 #292929,
+        inset 0px 0 15px 2px #29292933;
 }
 
 .changelog-main-background li {
