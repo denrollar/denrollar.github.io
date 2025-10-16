@@ -1,4 +1,12 @@
 const daysData = [
+    {
+    dateRange: "16 ОКТЯБРЯ 2025",
+    exercises: [
+      { name: "Отжимания", count: "3x12" },
+      { name: "Отжимания (алмазные)", count: "3x12" },
+      { name: "Отжимания (в наклоне)", count: "3x12" },
+    ]
+  },
   {
     dateRange: "14 ОКТЯБРЯ 2025",
     exercises: [
