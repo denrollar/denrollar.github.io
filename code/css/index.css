@@ -151,7 +151,9 @@ body {
 .player-mini__info {
     white-space: nowrap;
     overflow: hidden;
-    text-overflow: ellipsis;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .player-mini__artist {
@@ -159,13 +161,11 @@ body {
     font-weight: bold;
     color: #77787A;
     text-transform: uppercase;
-    text-overflow: ellipsis;
 }
 
 .player-mini__track {
-    font-size: 14px;
+    font-size: 12px;
     color: #ffffff;
-    text-overflow: ellipsis;
 }
 
 .now-playing__status {

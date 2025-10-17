@@ -1,7 +1,7 @@
 const achievements = [
   {
-    name: "Без алкоголя - 1 год",
-    date: "7 АВГУСТА 2025",
+    name: "Без алкоголя - 14 месяцев",
+    date: "7 ОКТЯБРЯ 2025",
     image: "resources/images/icons/alcohol.webp"
   },
 ];

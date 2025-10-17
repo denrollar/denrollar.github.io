@@ -1,12 +1,12 @@
 /* КИНО */
 
 const cinema = [
-  { title: "Адвокат дьявола", year: "1997", type: "Фильм", cover: "resources/images/covers/cinema/default.webp" },
+  { title: "Адвокат дьявола", year: "1997", type: "Фильм", cover: "resources/images/covers/cinema/advokatdevil.webp" },
   { title: "Аладдин", year: "1992", type: "Мультфильм", cover: "resources/images/covers/cinema/default.webp" },
   { title: "Аладдин: Возвращение Джафара", year: "1994", type: "Мультфильм", cover: "resources/images/covers/cinema/default.webp" },
   { title: "Американская история X", year: "2000", type: "Фильм", cover: "resources/images/covers/cinema/default.webp" },
   { title: "Американский психопат", year: "1998", type: "Фильм", cover: "resources/images/covers/cinema/default.webp" },
-  { title: "Аркейн", year: "2021", type: "Сериал", cover: "resources/images/covers/cinema/default.webp" },
+  { title: "Аркейн", year: "2021", type: "Сериал", cover: "resources/images/covers/cinema/arcane.webp" },
   { title: "Анора", year: "2024", type: "Фильм", cover: "resources/images/covers/cinema/default.webp" },
   { title: "Брандашмыг", year: "2018", type: "Фильм", cover: "resources/images/covers/cinema/default.webp" },
   { title: "Бегущий по лезвию", year: "1982", type: "Фильм", cover: "resources/images/covers/cinema/default.webp" },
@@ -25,7 +25,7 @@ const cinema = [
   { title: "Властелин колец: Братство кольца", type: "ФИЛЬМ", year: "2001", cover: "resources/images/covers/cinema/default.webp" },
   { title: "Властелин колец: Две крепости", type: "ФИЛЬМ", year: "2002", cover: "resources/images/covers/cinema/default.webp" },
   { title: "Властелин колец: Возвращение короля", type: "ФИЛЬМ", year: "2003", cover: "resources/images/covers/cinema/default.webp" },
-  { title: "Волк с Уолл-стрит", type: "ФИЛЬМ", year: "2013", cover: "resources/images/covers/cinema/default.webp" },
+  { title: "Волк с Уолл-стрит", type: "ФИЛЬМ", year: "2013", cover: "resources/images/covers/cinema/thewolfofwallstreet.webp" },
   { title: "Время", type: "ФИЛЬМ", year: "2011", cover: "resources/images/covers/cinema/default.webp" },
   { title: "Время", type: "ФИЛЬМ", year: "2021", cover: "resources/images/covers/cinema/default.webp" },
   { title: "Гарри Поттер и Философский камень", type: "ФИЛЬМ", year: "2001", cover: "resources/images/covers/cinema/default.webp" },
@@ -43,7 +43,7 @@ const cinema = [
   { title: "Джокер", type: "ФИЛЬМ", year: "2019", cover: "resources/images/covers/cinema/default.webp" },
   { title: "Дневник баскетболиста", type: "ФИЛЬМ", year: "1995", cover: "resources/images/covers/cinema/default.webp" },
   { title: "Дневник памяти", type: "ФИЛЬМ", year: "2004", cover: "resources/images/covers/cinema/default.webp" },
-  { title: "Довод", type: "ФИЛЬМ", year: "2020", cover: "resources/images/covers/cinema/default.webp" },
+  { title: "Довод", type: "ФИЛЬМ", year: "2020", cover: "resources/images/covers/cinema/tenet.webp" },
   { title: "Дориан Грей", type: "ФИЛЬМ", year: "2009", cover: "resources/images/covers/cinema/default.webp" },
   { title: "Достучаться до небес", type: "ФИЛЬМ", year: "1998", cover: "resources/images/covers/cinema/default.webp" },
   { title: "Драйв", type: "ФИЛЬМ", year: "2011", cover: "resources/images/covers/cinema/default.webp" },
@@ -293,11 +293,11 @@ containerAlbums.innerHTML = htmlAlbums;
 /* ЛИТЕРАТУРА */
 
 const books = [
-  { title: "Цветы для Элджернона", author: "Дэниел Киз", year: "1959", cover: "resources/images/covers/books/default.webp" },
-  { title: "Великий Гэтсби", author: "Фрэнсис Фицджеральд", year: "1925", cover: "resources/images/covers/books/default.webp" },
-  { title: "Мартин Иден", author: "Джек Лондон", year: "1909", cover: "resources/images/covers/books/default.webp" },
-  { title: "451 градус по Фаренгейту", author: "Рэй Брэдбери", year: "1953", cover: "resources/images/covers/books/default.webp" },
-  { title: "1984", author: "Джордж Оруэлл", year: "1949", cover: "resources/images/covers/books/default.webp" },
+  { title: "Цветы для Элджернона", author: "Дэниел Киз", year: "1959", cover: "resources/images/covers/books/flowersforalgernon.webp" },
+  { title: "Великий Гэтсби", author: "Фрэнсис Фицджеральд", year: "1925", cover: "resources/images/covers/books/thegreatgatsby.webp" },
+  { title: "Мартин Иден", author: "Джек Лондон", year: "1909", cover: "resources/images/covers/books/martineden.webp" },
+  { title: "451 градус по Фаренгейту", author: "Рэй Брэдбери", year: "1953", cover: "resources/images/covers/books/fahrenheit451.webp" },
+  { title: "1984", author: "Джордж Оруэлл", year: "1949", cover: "resources/images/covers/books/1984.webp" },
 ];
 
 const containerBooks = document.getElementById("books");
