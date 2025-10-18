@@ -2,16 +2,10 @@ const postsData = [
   {
     avatarSrc: "resources/images/other/avatar.webp",
     userName: "denrollar",
-    imageSrc: "resources/images/for-posts/1.webp",
-    title: "Рассрочка на подписки",
-    content: [
-      "Беспроцентная рассрочка на подписки интернет-сервисов от коммерческих банков может стать доступной уже в ближайшее время.",
-      "Крупные компании всё чаще используют модель подписки с ежемесячной или годовой оплатой в качестве основы для предоставления своих услуг.",
-      "Практика показывает, что годовая оплата подписки существенно дешевле по сравнению с ежемесячными платежами.",
-      "Для примера годовая подписка на Яндекс Плюс составляет 3400 рублей, что в 1.4 раза дешевле по сравнению ежемесячной оплатой в 399 рублей (399 руб. x 12 мес. = 4788 руб).",
-      "Коммерческие банки могут разделить сумму годовой подписки на равные ежемесячные платежи для снижения финансовой нагрузки на обычного потребителя, взимая взамен небольшую комиссию до 15% за предоставленные услуги."
+    imageSrc: "",
+    content: ["Спустя года, сообщаю, что по-прежнему тебя люблю, однако, мне никогда ничего не требовалось от тебя, кроме того, чтобы мои чувства угаслись и все забылось навсегда",
     ],
-    date: "31 МАРТА 2025"
+    date: "16 ОКТЯБРЯ 2025"
   },
 ];
 
@@ -25,6 +19,7 @@ function createPost(post) {
   const postDiv = document.createElement('div');
   postDiv.className = 'post-data';
 
+  // Блок профиля
   const profileDiv = document.createElement('div');
   profileDiv.className = 'block-post-profile-user';
 
@@ -46,23 +41,32 @@ function createPost(post) {
 
   postDiv.appendChild(profileDiv);
 
-  const postImg = document.createElement('img');
-  postImg.src = post.imageSrc;
-  postImg.className = 'image-post';
+  // Условие для добавления фото, если оно есть
+  if (post.imageSrc && post.imageSrc.trim() !== "") {
+    const postImg = document.createElement('img');
+    postImg.src = post.imageSrc;
+    postImg.className = 'image-post';
+    postDiv.appendChild(postImg);
+  }
 
-  postDiv.appendChild(postImg);
+  // Заголовок поста (если есть)
+  if (post.title) {
+    const titleP = document.createElement('p');
+    titleP.className = 'title-post';
+    titleP.textContent = post.title;
+    postDiv.appendChild(titleP);
+  }
 
-  const titleP = document.createElement('p');
-  titleP.className = 'title-post';
-  titleP.textContent = post.title;
-  postDiv.appendChild(titleP);
+  // Текстовое содержимое
+  if (post.content && Array.isArray(post.content)) {
+    post.content.forEach(text => {
+      const p = document.createElement('p');
+      p.textContent = text;
+      postDiv.appendChild(p);
+    });
+  }
 
-  post.content.forEach(text => {
-    const p = document.createElement('p');
-    p.textContent = text;
-    postDiv.appendChild(p);
-  });
-
+  // Дата
   const dateP = document.createElement('p');
   dateP.className = 'date';
   dateP.textContent = post.date;

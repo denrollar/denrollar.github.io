@@ -7,6 +7,7 @@
   src: url(../../resources/fonts/1.woff2) format('woff2');
   unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
+
 /* cyrillic */
 @font-face {
   font-family: 'Inter';
@@ -26,6 +27,7 @@
   src: url(../../resources/fonts/1.woff2) format('woff2');
   unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
+
 /* latin */
 @font-face {
   font-family: 'Inter';
@@ -100,15 +102,16 @@ body {
   box-sizing: border-box;
   margin-bottom: 10px;
   box-shadow:
-  0 8px 32px rgba(0, 0, 0, 0.3), 
-  inset 0 1px 0 #292929, 
-  inset 0px 0 15px 2px #29292933;
+    0 8px 32px rgba(0, 0, 0, 0.3),
+    inset 0 1px 0 #292929,
+    inset 0px 0 15px 2px #29292933;
 }
 
 .post-data p {
   padding: 0px 10px 0px 10px;
   color: #fff;
   font-size: 14px;
+    margin: 0px 0px 14px 0;
 }
 
 .post-data .title-post {
@@ -124,10 +127,11 @@ body {
 }
 
 .image-post {
-  max-width: 100%;
-  height: auto;
-  display: block;
+  width: 100%;
+  aspect-ratio: 16/9;
   object-fit: cover;
+  margin-bottom: 14px;
+  display: block;
 }
 
 .block-post-profile-user {
@@ -160,8 +164,11 @@ body {
 
 .lightbox {
   position: fixed;
-  top: 0; left: 0; right: 0; bottom: 0;
-  background: rgba(0,0,0,0.8);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
   display: none;
   justify-content: center;
   align-items: center;
@@ -172,12 +179,15 @@ body {
   display: flex;
 }
 
-.lightbox-content img, .lightbox-content video {
+.lightbox-content img,
+.lightbox-content video {
   max-width: 90vw;
   max-height: 80vh;
 }
 
-#closeBtn, #prevBtn, #nextBtn {
+#closeBtn,
+#prevBtn,
+#nextBtn {
   position: absolute;
   background: none;
   border: none;
@@ -188,16 +198,19 @@ body {
 }
 
 #closeBtn {
-  top: 10px; right: 10px;
+  top: 10px;
+  right: 10px;
 }
 
 #prevBtn {
-  top: 50%; left: 10px;
+  top: 50%;
+  left: 10px;
   transform: translateY(-50%);
 }
 
 #nextBtn {
-  top: 50%; right: 10px;
+  top: 50%;
+  right: 10px;
   transform: translateY(-50%);
 }
 
@@ -214,6 +227,11 @@ body {
 * {
   outline: none !important;
   -webkit-tap-highlight-color: transparent;
+}
+
+img.photo:empty,
+img.photo[alt=""] {
+  display: none;
 }
 
 @media (max-width: 768px) {
