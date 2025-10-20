@@ -111,7 +111,9 @@ body {
 }
 
 .card-image {
+    background: #262626;
     max-width: 100%;
+    aspect-ratio: 1 / 1;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
     margin-bottom: 12px;
