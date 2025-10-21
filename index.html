@@ -7,8 +7,7 @@
 
   <title>denrollar</title>
   <link rel="icon" href="resources/images/icons/logo.webp" type="image/webp">
-  <link rel="stylesheet" href="code/css/nav.css" />
-  <link rel="stylesheet" href="code/css/index.css" />
+  <link rel="stylesheet" href="css/root.css" />
   <link rel="manifest" href="/manifest.webmanifest">
 </head>
 
@@ -67,8 +66,6 @@
       </div>
     </nav>
 
-    <script src="code/js/nav.js"></script>
-
     <div class="main">
 
       <div class="profile-container">
@@ -79,9 +76,29 @@
       <div class="block-hidden-9">
         <div id="now-playing"></div>
       </div>
-      <script src="code/js/now-playing.js"></script>
+      <script src="js/now-playing.js"></script>
     </div>
 
   </body>
+
+  <script>
+
+    /* Навигация */
+
+    const menuBtn = document.getElementById('menu-btn');
+    const vertical = document.getElementById('vertical');
+    const overlay = document.getElementById('overlay');
+    const closeBack = document.getElementById('close-back');
+
+    function toggleMenu() {
+      vertical.classList.toggle('active');
+      overlay.classList.toggle('active');
+    }
+
+    menuBtn.addEventListener('click', toggleMenu);
+    overlay.addEventListener('click', toggleMenu);
+    closeBack.addEventListener('click', toggleMenu);
+
+  </script>
 
 </html>

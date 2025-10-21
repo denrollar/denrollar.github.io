@@ -7,8 +7,7 @@
 
     <title>О себе</title>
     <link rel="icon" href="resources/images/icons/logo.webp" type="image/webp">
-    <link rel="stylesheet" href="code/css/nav.css" />
-    <link rel="stylesheet" href="code/css/about.css" />
+    <link rel="stylesheet" href="css/root.css" />
     <link rel="manifest" href="/manifest.webmanifest">
 </head>
 
@@ -71,8 +70,6 @@
         </div>
     </nav>
 
-    <script src="code/js/nav.js"></script>
-
     <div class="main">
 
         <div class="block-main-header-text">
@@ -89,7 +86,7 @@
                     <div class="section-title">22 года</div>
                     <div class="section-subtitle">19 НОЯБРЯ 2002</div>
                 </div>
-                <div class="icon2"><img src="resources/images/other/scorpion.webp" class="icon2" /></div>
+                <div class="scorpion"><img src="resources/images/other/scorpion.webp" class="scorpion" /></div>
             </div>
         </div>
 
@@ -159,14 +156,14 @@
                     <div class="section-title">Мистер Робот</div>
                     <div class="section-subtitle">ЛЮБИМОЕ КИНО</div>
                 </div>
-                <div class="icon5"><img src="resources/images/covers/cinema/mrrobot.webp" class="icon5" /></div>
+                <div class="cover"><img src="resources/images/covers/cinema/mrrobot.webp" class="cover" /></div>
             </div>
             <div class="section-header">
                 <div class="hidden-conteiner-2">
                     <div class="section-title">17</div>
                     <div class="section-subtitle">ЛЮБИМЫЙ АЛЬБОМ</div>
                 </div>
-                <div class="icon5"><img src="resources/images/covers/albums/xxxtentacion-17.webp" class="icon5" /></div>
+                <div class="cover"><img src="resources/images/covers/albums/xxxtentacion-17.webp" class="cover" /></div>
             </div>
 
             <div class="section-header">
@@ -174,7 +171,7 @@
                     <div class="section-title">Мартин Иден</div>
                     <div class="section-subtitle">ЛЮБИМАЯ КНИГА</div>
                 </div>
-                <div class="icon5"><img src="resources/images/covers/books/martineden.webp" class="icon5" /></div>
+                <div class="cover"><img src="resources/images/covers/books/martineden.webp" class="cover" /></div>
             </div>
 
             <div class="section-header">
@@ -182,9 +179,29 @@
                     <div class="section-title">Minecraft</div>
                     <div class="section-subtitle">ЛЮБИМАЯ ИГРА</div>
                 </div>
-                <div class="icon5"><img src="resources/images/covers/games/minecraft.webp" class="icon5" /></div>
+                <div class="cover"><img src="resources/images/covers/games/minecraft.webp" class="cover" /></div>
             </div>
         </div>
 </body>
+
+<script>
+
+/* Навигация */
+
+  const menuBtn = document.getElementById('menu-btn');
+  const vertical = document.getElementById('vertical');
+  const overlay = document.getElementById('overlay');
+  const closeBack = document.getElementById('close-back');
+
+  function toggleMenu() {
+  vertical.classList.toggle('active');
+  overlay.classList.toggle('active');
+  }
+
+  menuBtn.addEventListener('click', toggleMenu);
+  overlay.addEventListener('click', toggleMenu);
+  closeBack.addEventListener('click', toggleMenu);
+
+</script>
 
 </html>

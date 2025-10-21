@@ -6,8 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Искусство</title>
   <link rel="icon" href="resources/images/icons/logo.webp" type="image/webp">
-  <link rel="stylesheet" href="code/css/nav.css" />
-  <link rel="stylesheet" href="code/css/art.css" />
+  <link rel="stylesheet" href="css/root.css" />
   <link rel="manifest" href="/manifest.webmanifest">
 </head>
 
@@ -65,16 +64,12 @@
     </div>
   </nav>
 
-  <script src="code/js/nav.js"></script>
-
   <div class="main">
 
     <div class="block-main-header-text">
       <div class="main-header-text">Искусство</div>
       <div class="secondary-header-text">Обновлено: 14 октября 2025</div>
     </div>
-
-    <script src="code/js/table-v.js"></script>
 
     <div class="tabs">
       <button class="tab-button active" onclick="switchTable(0)">Кино</button>
@@ -100,8 +95,40 @@
     </div>
   </div>
 
-  <script src="code/js/art.js"></script>
+  <script src="js/art.js"></script>
 
 </body>
+
+<script>
+
+  /* Навигация */
+
+  const menuBtn = document.getElementById('menu-btn');
+  const vertical = document.getElementById('vertical');
+  const overlay = document.getElementById('overlay');
+  const closeBack = document.getElementById('close-back');
+
+  function toggleMenu() {
+    vertical.classList.toggle('active');
+    overlay.classList.toggle('active');
+  }
+
+  menuBtn.addEventListener('click', toggleMenu);
+  overlay.addEventListener('click', toggleMenu);
+  closeBack.addEventListener('click', toggleMenu);
+
+  /* Свисток */
+
+  function switchTable(index) {
+    const buttons = document.querySelectorAll('.tab-button');
+    const tables = document.querySelectorAll('.table-wrapper');
+    buttons.forEach((btn, i) => {
+      btn.classList.toggle('active', i === index);
+      tables[i].classList.toggle('active', i === index);
+    });
+  }
+
+
+</script>
 
 </html>

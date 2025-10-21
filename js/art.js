@@ -148,7 +148,7 @@ let htmlCinema = '';
 cinema.forEach(item => {
   htmlCinema += `
         <div class="container-for-art">
-          <div class="covers-for-art"><img src="${item.cover}" class="covers-for-art" /></div>
+          <div class="cover"><img src="${item.cover}" class="cover" /></div>
           <div class="hidden-container-404">
             <div class="section-title">${item.title}</div>
             <div class="section-subtitle">${item.type.toUpperCase()} · ${item.year}</div>
@@ -280,7 +280,7 @@ let htmlAlbums = '';
 albums.forEach(item => {
   htmlAlbums += `
         <div class="container-for-art">
-          <div class="covers-for-art"><img src="${item.cover}" class="covers-for-art" /></div>
+          <div class="cover"><img src="${item.cover}" class="cover" /></div>
           <div class="hidden-container-404">
             <div class="section-title">${item.title}</div>
             <div class="section-subtitle">${item.artist.toUpperCase()} · ${item.year}</div>
@@ -306,7 +306,7 @@ let htmlBooks = '';
 books.forEach(item => {
   htmlBooks += `
         <div class="container-for-art">
-          <div class="covers-for-art"><img src="${item.cover}" class="covers-for-art" /></div>
+          <div class="cover"><img src="${item.cover}" class="cover" /></div>
           <div class="hidden-container-404">
             <div class="section-title">${item.title}</div>
             <div class="section-subtitle">${item.author.toUpperCase()} · ${item.year}</div>
@@ -344,7 +344,7 @@ let htmlVideogames = '';
 videogames.forEach(item => {
   htmlVideogames += `
         <div class="container-for-art">
-          <div class="covers-for-art"><img src="${item.cover}" class="covers-for-art" /></div>
+          <div class="cover"><img src="${item.cover}" class="cover" /></div>
           <div class="hidden-container-404">
             <div class="section-title">${item.title}</div>
             <div class="section-subtitle">${item.platform.toUpperCase()} · ${item.year} </div>
