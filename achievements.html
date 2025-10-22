@@ -4,7 +4,6 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
   <title>Достижения</title>
   <link rel="icon" href="resources/images/icons/logo.webp" type="image/webp">
   <link rel="stylesheet" href="css/root.css" />
@@ -72,12 +71,30 @@
       <div class="secondary-header-text">Успехи и положительные результаты</div>
     </div>
 
-    <div id="achievements-container"></div>
-    <script src="js/achievements.js"></script>
+    <div class="tabs">
+      <button class="tab-button active" onclick="switchTable(0)">Жизнь</button>
+      <button class="tab-button" onclick="switchTable(1)">Тренировка</button>
+      <button class="tab-button" onclick="switchTable(2)">Искусство</button>
+    </div>
+
+    <div class="table-wrapper active">
+      <div id="ach1"></div>
+    </div>
+
+    <div class="table-wrapper">
+      <div id="ach2"></div>
+    </div>
+
+    <div class="table-wrapper">
+      <div id="ach3"></div>
+    </div>
 
   </div>
 
+  <script src="js/achievements.js"></script>
+
 </body>
+
 <script>
 
   /* Навигация */
@@ -96,8 +113,18 @@
   overlay.addEventListener('click', toggleMenu);
   closeBack.addEventListener('click', toggleMenu);
 
+  /* Свисток */
+
+  function switchTable(index) {
+    const buttons = document.querySelectorAll('.tab-button');
+    const tables = document.querySelectorAll('.table-wrapper');
+    buttons.forEach((btn, i) => {
+      btn.classList.toggle('active', i === index);
+      tables[i].classList.toggle('active', i === index);
+    });
+  }
+
+
 </script>
-
-
 
 </html>
