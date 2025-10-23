@@ -323,7 +323,13 @@ body {
 
 .section-title {
     font-size: 14px;
+}
 
+.ach-section-title {
+    font-size: 10px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    color: yellowgreen;
 }
 
 .section-subtitle {
@@ -517,18 +523,18 @@ body {
 }
 
 .icon7 {
-    width: 46px;
-    height: 46px;
-    border-radius: 10px;
-    background-color: #101010;
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: none;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .icon7 img {
-    width: 40px;
-    height: 40px;
+    width: 44px;
+    height: 44px;
 }
 
 .hidden-block-1 {
