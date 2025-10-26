@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Достижения</title>
+  <link rel="icon" href="resources/images/icons/logo.webp" type="image/webp">
+  <link rel="stylesheet" href="css/root.css" />
+  <link rel="manifest" href="/manifest.webmanifest">
+</head>
+
+<body>
+  <nav id="horizontal">
+    <button id="menu-btn">
+      <div class="nav-open"><img src="resources/images/icons/nav.svg" class="nav-open" /></div>
+    </button>
+    <a href="about.html" class="button-profile-user">
+      <div class="block-profile-user">
+        <div class="name-profile-user">denrollar</div>
+        <div class="avatar-profile"><img src="resources/images/other/avatar.webp" class="avatar-profile" />
+        </div>
+      </div>
+    </a>
+  </nav>
+
+  <div id="overlay"></div>
+
+  <nav id="vertical">
+    <div class="hidden-block-2">
+      <h2>Навигация</h2>
+      <button id="close-back">
+        <div class="close"><img src="resources/images/icons/exit.svg" class="close" /></div>
+      </button>
+    </div>
+
+    <div class="menu">
+      <div class="menu-section">
+        <div class="menu-subtitle">Основное</div>
+        <div class="menu-grid">
+          <a href="index.html" class="menu-item"><img src="resources/images/icons/home.svg" class="icon" />Главная</a>
+          <a href="about.html" class="menu-item"><img src="resources/images/icons/faq.svg" class="icon" />О себе</a>
+          <a href="posts.html" class="menu-item"><img src="resources/images/icons/posts.svg" class="icon" />Посты</a>
+          <a href="wishlist.html" class="menu-item"><img src="resources/images/icons/favorites.svg"
+              class="icon" />Вишлист</a>
+          <a href="gallery.html" class="menu-item"><img src="resources/images/icons/gallery.svg"
+              class="icon" />Галерея</a>
+          <a href="achievements.html" class="menu-item"><img src="resources/images/icons/achievement.svg"
+              class="icon" />Достижения</a>
+        </div>
+      </div>
+      <hr>
+      <div class="menu-section">
+        <div class="menu-subtitle">Активность</div>
+        <div class="menu-grid">
+          <a href="art.html" class="menu-item"><img src="resources/images/icons/art.svg" class="icon" />Искусство</a>
+          <a href="training.html" class="menu-item"><img src="resources/images/icons/training.svg"
+              class="icon" />Тренировка</a>
+          <a href="food.html" class="menu-item"><img src="resources/images/icons/food.svg" class="icon" />Питание</a>
+          <a href="changelog.html" class="menu-item"><img src="resources/images/icons/changelog.svg"
+              class="icon" />Ченджлог</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="main">
+
+    <div class="block-main-header-text">
+      <div class="main-header-text">Достижения</div>
+      <div class="secondary-header-text">Успехи и положительные результаты</div>
+    </div>
+
+    <div class="tabs">
+      <button class="tab-button active" onclick="switchTable(0)">Жизнь</button>
+      <button class="tab-button" onclick="switchTable(1)">Фитнес</button>
+      <button class="tab-button" onclick="switchTable(2)">Искусство</button>
+    </div>
+
+    <div class="table-wrapper active">
+      <div id="ach1"></div>
+    </div>
+
+    <div class="table-wrapper">
+      <div id="ach2"></div>
+    </div>
+
+    <div class="table-wrapper">
+      <div id="ach3"></div>
+    </div>
+
+  </div>
+
+  <script src="js/achievements.js"></script>
+
+</body>
+
+<script>
+
+  /* Навигация */
+
+  const menuBtn = document.getElementById('menu-btn');
+  const vertical = document.getElementById('vertical');
+  const overlay = document.getElementById('overlay');
+  const closeBack = document.getElementById('close-back');
+
+  function toggleMenu() {
+    vertical.classList.toggle('active');
+    overlay.classList.toggle('active');
+  }
+
+  menuBtn.addEventListener('click', toggleMenu);
+  overlay.addEventListener('click', toggleMenu);
+  closeBack.addEventListener('click', toggleMenu);
+
+  /* Свисток */
+
+  function switchTable(index) {
+    const buttons = document.querySelectorAll('.tab-button');
+    const tables = document.querySelectorAll('.table-wrapper');
+    buttons.forEach((btn, i) => {
+      btn.classList.toggle('active', i === index);
+      tables[i].classList.toggle('active', i === index);
+    });
+  }
+
+
+</script>
+
+</html>
