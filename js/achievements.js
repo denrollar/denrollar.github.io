@@ -28,7 +28,7 @@ containerAch1.innerHTML = htmlAch1;
 
 const ach2 = [
   { name: "Отжимания: 15 повторений", xtext: "Лучший результат за 1 подход", date: "22 ОКТЯБРЯ 2025", image: "resources/images/icons/medal-15.webp" },
-  { name: "Приседания: 50 повторений", xtext: "Лучший результат за 1 подход", date: "23 ОКТЯБРЯ 2025", image: "resources/images/icons/medal-100.webp" },
+  { name: "Приседания: 100 повторений", xtext: "Лучший результат за 1 подход", date: "23 ОКТЯБРЯ 2025", image: "resources/images/icons/medal-100.webp" },
 ];
 
 const containerAch2 = document.getElementById("ach2");
