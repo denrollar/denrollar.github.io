@@ -1,12 +1,22 @@
 const daysData = [
   {
+    dateRange: "02 НОЯБРЯ 2025",
+    exercises: [
+      { name: "Калории", count: "398" },
+      { name: "Белки", count: "15,3 г" },
+      { name: "Жиры", count: "3,7 г" },
+      { name: "Углеводы", count: "82,2 г" },
+      { name: "Сахар", count: "11 г" },
+    ]
+  },
+  {
     dateRange: "01 НОЯБРЯ 2025",
     exercises: [
-      { name: "Калории", count: "310" },
-      { name: "Белки", count: "15,1 г" },
-      { name: "Жиры", count: "8,1 г" },
-      { name: "Углеводы", count: "45,5 г" },
-      { name: "Сахар", count: "8,5 г" },
+      { name: "Калории", count: "463" },
+      { name: "Белки", count: "21,4 г" },
+      { name: "Жиры", count: "9,6 г" },
+      { name: "Углеводы", count: "78,3 г" },
+      { name: "Сахар", count: "8,8 г" },
     ]
   },
 ];
