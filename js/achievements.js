@@ -1,7 +1,7 @@
 /* П1 */
 
 const ach1 = [
-  { name: "Без алкоголя: 14 месяцев", xtext: "Отказ от спиртных напитков", date: "7 ОКТЯБРЯ 2025", image: "resources/images/icons/alcohol.webp" },
+  { name: "Без алкоголя: 15 месяцев", xtext: "Отказ от спиртных напитков", date: "7 НОЯБРЯ 2025", image: "resources/images/icons/alcohol.webp" },
 ];
 
 const containerAch1 = document.getElementById("ach1");
@@ -58,7 +58,8 @@ const ach3 = [
   { name: "Прочитано книг: 5 шт", xtext: "От начала до конца", date: "ВЕСНА 2024", image: "resources/images/icons/book.webp" },
   { name: "Прослушано альбомов: 100 шт", xtext: "От начала до конца", date: "23 ОКТЯБРЯ 2025", image: "resources/images/icons/album.webp" },
   { name: "Завершено видеоигр: 25 шт", xtext: "Исключаются просмотренные", date: "2025", image: "resources/images/icons/games.webp" },
-  { name: "God of War: 100% завершено", xtext: "ПК · 2018", date: "ОКТЯБРЬ 2023", image: "resources/images/icons/s2.webp" },
+  { name: "GTA: San Andreas - 100% завершено", xtext: "ПК · 2004", date: "04 НОЯБРЯ 2025", image: "resources/images/icons/s2.webp" },
+  { name: "God of War - 100% завершено", xtext: "ПК · 2018", date: "ОКТЯБРЬ 2023", image: "resources/images/icons/s2.webp" },
 ];
 
 const containerAch3 = document.getElementById("ach3");
