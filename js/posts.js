@@ -3,7 +3,7 @@ const postsData = [
     avatarSrc: "resources/images/other/avatar.webp",
     userName: "denrollar",
     imageSrc: "",
-    content: "Я смог – и я выздоровел",
+    content: ["Я смог – и я выздоровел",
     ],
     date: "20 НОЯБРЯ 2025"
   },
