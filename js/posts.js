@@ -1,4 +1,20 @@
 const postsData = [
+    {
+    avatarSrc: "resources/images/other/avatar.webp",
+    userName: "denrollar",
+    imageSrc: "",
+    content: "Я смог – и я выздоровел",
+    ],
+    date: "20 НОЯБРЯ 2025"
+  },
+  {
+    avatarSrc: "resources/images/other/avatar.webp",
+    userName: "denrollar",
+    imageSrc: "",
+    content: ["Заслуженно получил 0 поздравлений на свой день рождения (если исключать семью из списка)",
+    ],
+    date: "19 НОЯБРЯ 2025"
+  },
   {
     avatarSrc: "resources/images/other/avatar.webp",
     userName: "denrollar",
