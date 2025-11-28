@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Галерея</title>
+  <link rel="icon" href="resources/images/icons/logo.webp" type="image/webp">
+  <link rel="stylesheet" href="css/root.css" />
+  <link rel="manifest" href="/manifest.webmanifest">
+</head>
+
+<body>
+  <nav id="horizontal">
+    <button id="menu-btn">
+      <div class="nav-open"><img src="resources/images/icons/nav.svg" class="nav-open" /></div>
+    </button>
+    <a href="about.html" class="button-profile-user">
+      <div class="block-profile-user">
+        <div class="name-profile-user">denrollar</div>
+        <div class="avatar-profile"><img src="resources/images/other/avatar.webp" class="avatar-profile" />
+        </div>
+      </div>
+    </a>
+  </nav>
+
+  <div id="overlay"></div>
+
+  <nav id="vertical">
+    <div class="hidden-block-2">
+      <h2>Навигация</h2>
+      <button id="close-back">
+        <div class="close"><img src="resources/images/icons/exit.svg" class="close" /></div>
+      </button>
+    </div>
+
+    <div class="menu">
+      <div class="menu-section">
+        <div class="menu-subtitle">Основное</div>
+        <div class="menu-grid">
+          <a href="index.html" class="menu-item"><img src="resources/images/icons/home.svg" class="icon" />Главная</a>
+          <a href="about.html" class="menu-item"><img src="resources/images/icons/faq.svg" class="icon" />О себе</a>
+          <a href="posts.html" class="menu-item"><img src="resources/images/icons/posts.svg" class="icon" />Посты</a>
+          <a href="wishlist.html" class="menu-item"><img src="resources/images/icons/favorites.svg"
+              class="icon" />Вишлист</a>
+          <a href="gallery.html" class="menu-item"><img src="resources/images/icons/gallery.svg"
+              class="icon" />Медиа</a>
+          <a href="achievements.html" class="menu-item"><img src="resources/images/icons/achievement.svg"
+              class="icon" />Достижения</a>
+        </div>
+      </div>
+      <hr>
+      <div class="menu-section">
+        <div class="menu-subtitle">Активность</div>
+        <div class="menu-grid">
+          <a href="art.html" class="menu-item"><img src="resources/images/icons/art.svg" class="icon" />Искусство</a>
+          <a href="training.html" class="menu-item"><img src="resources/images/icons/training.svg"
+              class="icon" />Тренировка</a>
+          <a href="food.html" class="menu-item"><img src="resources/images/icons/food.svg" class="icon" />Здоровье</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="main">
+
+    <div class="block-main-header-text">
+      <div class="main-header-text">Медиа</div>
+    </div>
+
+    <div class="header-text-name">Галерея</div>
+    <div class="gallery-wrap" id="photoGallery">
+      <div class="gallery-item-block" data-date="15 АВГУСТА 2025"><img src="resources/images/photo-1.jpg"></div>
+      <div class="gallery-item-block" data-date="25 МАЯ 2025"><img src="resources/images/photo-2.jpg"></div>
+    </div>
+
+  </div>
+  <div class="lightbox-frame" id="lightbox">
+    <button class="close-button-frame" id="closeBtn">
+      <div class="close"><img src="resources/images/icons/exit.svg" class="close" /></div>
+    </button>
+    <button class="nav-button nav-button-left" id="prevBtn">
+      <div class="close"><img src="resources/images/icons/left.svg" class="close" /></div>
+    </button>
+    <button class="nav-button nav-button-right" id="nextBtn">
+      <div class="close"><img src="resources/images/icons/right.svg" class="close" /></div>
+    </button>
+    <div class="lightbox-content-frame" id="lightboxContent"></div>
+    <div class="caption-text" id="caption"></div>
+  </div>
+
+  <script src="js/gallery.js"></script>
+
+  </div>
+
+</body>
+
+<script>
+
+  /* Навигация */
+
+  const menuBtn = document.getElementById('menu-btn');
+  const vertical = document.getElementById('vertical');
+  const overlay = document.getElementById('overlay');
+  const closeBack = document.getElementById('close-back');
+
+  function toggleMenu() {
+    vertical.classList.toggle('active');
+    overlay.classList.toggle('active');
+  }
+
+  menuBtn.addEventListener('click', toggleMenu);
+  overlay.addEventListener('click', toggleMenu);
+  closeBack.addEventListener('click', toggleMenu);
+
+</script>
+
+</html>
