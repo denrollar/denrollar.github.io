@@ -11,11 +11,6 @@ const products = [
     model: "Apple iPhone 17 256GB",
     image: "resources/images/cards/card-2.webp"
   },
-  {
-    brand: "ПЛЕЕР",
-    model: "Apple iPod Classic 7",
-    image: "resources/images/cards/card-3.webp"
-  },
 ];
 
 const container = document.querySelector('.cards');

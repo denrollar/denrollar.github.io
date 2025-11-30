@@ -54,10 +54,10 @@ containerAch2.innerHTML = htmlAch2;
 /* П3 */
 
 const ach3 = [
-  { name: "Посмотрено кино: 100 шт", xtext: "Фильмы, сериалы и мультфильмы", date: "23 ОКТЯБРЯ 2025", image: "resources/images/icons/cinema.webp" },
-  { name: "Прочитано книг: 5 шт", xtext: "От начала до конца", date: "ВЕСНА 2024", image: "resources/images/icons/book.webp" },
-  { name: "Прослушано альбомов: 100 шт", xtext: "От начала до конца", date: "23 ОКТЯБРЯ 2025", image: "resources/images/icons/album.webp" },
-  { name: "Завершено видеоигр: 25 шт", xtext: "Исключаются просмотренные", date: "2025", image: "resources/images/icons/games.webp" },
+  { name: "Посмотрено кино: 145 шт", xtext: "Фильмы, сериалы и мультфильмы", date: "НАСТОЯЩЕЕ ВРЕМЯ", image: "resources/images/icons/cinema.webp" },
+  { name: "Прочитано книг: 5 шт", xtext: "От начала до конца", date: "НАСТОЯЩЕЕ ВРЕМЯ", image: "resources/images/icons/book.webp" },
+  { name: "Прослушано альбомов: 117 шт", xtext: "От начала до конца", date: "НАСТОЯЩЕЕ ВРЕМЯ", image: "resources/images/icons/album.webp" },
+  { name: "Завершено видеоигр: 25 шт", xtext: "Исключаются просмотренные", date: "НАСТОЯЩЕЕ ВРЕМЯ", image: "resources/images/icons/games.webp" },
 ];
 
 const containerAch3 = document.getElementById("ach3");
