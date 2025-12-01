@@ -190,6 +190,7 @@ const albums = [
   { title: "Cristoforo Colombo", artist: "FRIENDLY THUG 52 NGG", year: "2023", cover: "resources/images/covers/albums/friendlythug52ngg-cristoforocolombo.webp" },
   { title: "Humanz", artist: "GORILLAZ", year: "2017", cover: "resources/images/covers/albums/gorillaz-humanz.webp" },
   { title: "Harry's House", artist: "HARRY STYLES", year: "2022", cover: "resources/images/covers/albums/harrystyles-harryshouse.webp" },
+  { title: "1000 Bars", artist: "HERONWATER", year: "2025", cover: "resources/images/covers/albums/1000bars.webp" },
   { title: "Odyssey", artist: "HERONWATER", year: "2024", cover: "resources/images/covers/albums/heronwater-odyssey.webp" },
   { title: "Dream Money Can Buy", artist: "HERONWATER", year: "2023", cover: "resources/images/covers/albums/heronwater-dreamsmoneycanbuy.webp" },
   { title: "No Commercial Lyrics", artist: "HERONWATER", year: "2022", cover: "resources/images/covers/albums/heronwater-nocommerciallyrics.webp" },
