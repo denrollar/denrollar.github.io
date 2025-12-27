@@ -1,0 +1,45 @@
+{
+  "short_name": "denrollar",
+  "name": "denrollar: личный сайт",
+  "icons": [
+    {
+      "src": "resources/images/icons/android-maskable.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    },
+    {
+      "src": "resources/images/icons/splash-icon.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
+    },
+    {
+      "src": "resources/images/icons/general-icon.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any"
+    }
+  ],
+  "id": "/",
+  "start_url": "/",
+  "background_color": "#0d0d0d",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#000",
+  "description": "denrollar: личный сайт",
+  "screenshots": [
+    {
+      "src": "resources/images/screenshots/screenshot1.png",
+      "type": "image/png",
+      "sizes": "540x720",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "resources/images/screenshots/screenshot2.jpg",
+      "type": "image/jpg",
+      "sizes": "720x540",
+      "form_factor": "wide"
+    }
+  ]
+}
