@@ -2,6 +2,14 @@ const postsData = [
   {
     avatarSrc: "resources/images/photos/avatar.webp",
     userName: "denrollar",
+    imageSrc: "resources/images/photos/post-243.png",
+    content: ["Я доволен финальным эпизодом «Очень странных дел»","Мне понравилось завершение сериала, не смотря на весь хейт в интернете",
+    ],
+    date: "01 ЯНВАРЯ 2025"
+  },
+  {
+    avatarSrc: "resources/images/photos/avatar.webp",
+    userName: "denrollar",
     imageSrc: "resources/images/photos/music-year2025.png",
     content: ["Мои музыкальные итоги 2025",
     ],
@@ -35,7 +43,7 @@ const NODES = {
 
 const init = () => {
   if (!NODES.container) return;
-  
+
   postsData.forEach((post, index) => {
     NODES.container.appendChild(createPost(post, index));
   });
@@ -82,7 +90,7 @@ const openLightbox = (index) => {
   img.src = post.imageSrc;
 
   NODES.content.replaceChildren(img);
-  
+
   document.body.style.overflow = 'hidden';
   NODES.lightbox.classList.add('active-frame');
 };
@@ -90,10 +98,10 @@ const openLightbox = (index) => {
 const closeLightbox = () => {
   NODES.lightbox.classList.remove('active-frame');
   NODES.content.replaceChildren();
-  
+
   // Очищаем подпись при закрытии на всякий случай
   if (NODES.caption) NODES.caption.textContent = '';
-  
+
   document.body.style.overflow = '';
 };
 
