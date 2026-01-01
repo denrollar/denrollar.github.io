@@ -5,7 +5,7 @@ const postsData = [
     imageSrc: "resources/images/photos/post-243.png",
     content: ["Я доволен финальным эпизодом «Очень странных дел»","Мне понравилось завершение сериала, не смотря на весь хейт в интернете",
     ],
-    date: "01 ЯНВАРЯ 2025"
+    date: "01 ЯНВАРЯ 2026"
   },
   {
     avatarSrc: "resources/images/photos/avatar.webp",
